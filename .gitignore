@@ -1,0 +1,29 @@
+# Environment variables (contains API key)
+.env
+
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+```
+
+**This tells Git to NEVER upload your .env file (which has your secret API key)!**
+
+---
+
